@@ -3,6 +3,9 @@
 **PR Agent** は、広報担当者のプレスリリース作成業務を支援する AI アシスタントツールです。  
 単なる文章生成に留まらず、生成AI特有の「推論待ち時間」による業務中断（コンテキストスイッチ）を防ぐための **非同期UXアーキテクチャ** を採用し、ユーザーの生産性を最大化することに特化しています。
 
+<img width="1479" height="989" alt="image" src="https://github.com/user-attachments/assets/4daac32f-d029-4c86-be32-aeb7f2c6003f" />
+
+
 ---
 
 ## 📖 プロジェクト概要 (Overview)
@@ -17,6 +20,15 @@
 - **AIのレイテンシ問題**: LLMの応答待ち（平均20〜30秒）によるUXの低下
 - **編集と分析の競合**: 分析中にテキストを編集した際のデータ整合性の欠如
 - **広報業務の属人化**: 効果的なフック（切り口）や構成案作成のナレッジ不足
+
+---
+## 🙋‍♂️ 自分の役割・貢献 (My Contribution)
+
+**Role: Frontend Lead / UX Architect**
+
+- **フロントエンド実装**: React/TypeScript による SPA 構築、カスタムフックでのロジック分離
+- **PWA/Notification実装**: Service Worker を用いた通知システムと、React コンポーネントとの連携実装
+- **API連携**: バックエンド（Rails）との非同期通信周りの設計（Axios/SWR）
 
 ---
 
@@ -108,27 +120,5 @@ API仕様の認識齟齬を防ぐため、インターフェース定義やタ�
 
 ---
 
-## 🙋‍♂️ 自分の役割・貢献 (My Contribution)
 
-**Role: Frontend Lead / UX Architect**
 
-- **フロントエンド実装**: React/TypeScript による SPA 構築、カスタムフックでのロジック分離
-- **PWA/Notification実装**: Service Worker を用いた通知システムと、React コンポーネントとの連携実装
-- **API連携**: バックエンド（Rails）との非同期通信周りの設計（Axios/SWR）
-
----
-
-## 🔧 セットアップ (Setup)
-
-### Prerequisites
-
-- Node.js v18+
-- Docker / Docker Compose
-
-### Installation
-
-#### 1) Clone the repository
-
-```bash
-git clone https://github.com/your-username/pr-agent.git
-cd pr-agent
