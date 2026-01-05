@@ -3,7 +3,9 @@
 **PR Agent** は、広報担当者のプレスリリース作成業務を支援する AI アシスタントツールです。  
 単なる文章生成に留まらず、生成AI特有の「推論待ち時間」による業務中断（コンテキストスイッチ）を防ぐための **非同期UXアーキテクチャ** を採用し、ユーザーの生産性を最大化することに特化しています。
 
-<img width="1479" height="989" alt="image" src="https://github.com/user-attachments/assets/4daac32f-d029-4c86-be32-aeb7f2c6003f" />
+---
+デモ動画→https://www.notion.so/PR-Agent-AI-Powered-Press-Release-Assistant-2df41dc1c9dd806c9ccfe350ae1ca45d?source=copy_link
+<img width="1471" height="895" alt="image" src="https://github.com/user-attachments/assets/e7aaad50-bd6e-4300-8b9f-b272f2973de8" />
 
 
 ---
@@ -119,6 +121,7 @@ API仕様の認識齟齬を防ぐため、インターフェース定義やタ�
 開発の手戻りを最小限に抑えました。
 
 ---
+
 
 
 
